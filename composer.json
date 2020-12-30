@@ -41,7 +41,8 @@
 		"joshcam/mysqli-database-class": "dev-master",
 		"mobiledetect/mobiledetectlib": "dev-master",
 		"caseyamcl/toc": "^3.0",
-		"phpoffice/phpspreadsheet": "dev-master"
+		"phpoffice/phpspreadsheet": "dev-master",
+		"eftec/bladeone": "dev-master"
 	},
 	"suggest": {
 		"illuminate/support": "Yeu cau cai dat va tat ca thu vien co trong composer"
