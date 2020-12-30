@@ -1,0 +1,49 @@
+{
+	"name": "thichweb/support",
+	"description": "Thichweb support package",
+	"keywords": [
+		"thichweb",
+		"thichweb.com"
+	],
+	"homepage": "https://thichweb.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "THICHWEB CO.,LTD",
+			"email": "thongtin@thichweb.com",
+			"homepage": "https://thichweb.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.3.0",
+		"ext-session": "*",
+		"ext-json": "*",
+		"ext-mbstring": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Thichweb\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	},
+	"minimum-stability": "dev",
+	"require-dev": {
+		"symfony/var-dumper": "*",
+		"symfony/http-foundation": "5.x-dev",
+		"thingengineer/mysqli-database-class": "dev-master",
+		"nesbot/carbon": "^2.0@dev",
+		"illuminate/support": "^9.0@dev",
+		"greg0/lazer-database": "dev-master",
+		"intervention/image": "^2.4@dev",
+		"joshcam/mysqli-database-class": "dev-master",
+		"mobiledetect/mobiledetectlib": "dev-master",
+		"caseyamcl/toc": "^3.0",
+		"phpoffice/phpspreadsheet": "dev-master"
+	},
+	"suggest": {
+		"illuminate/support": "Yeu cau cai dat va tat ca thu vien co trong composer"
+	}
+}
